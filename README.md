@@ -7,11 +7,17 @@ A small REST API where users can add and fetch book reviews. We'll test it, buil
 Objective: Understand basic CI/CD, set up your environment, and get Azure DevOps ready.
 
  1- Create a free Azure DevOps account
+ 
  2- Install Git, VS Code, and set up a GitHub repo
+ 
  3- Clone a sample REST API app (can be Python, Node.js, or .NET—let me know your preference!)
+ 
  4- Understand core CI/CD concepts:
+ 
       a- What is CI/CD
+      
       b- Difference between CI and CD
+      
       c- Importance of automated testing
       
 - Deliverable: Run the app locally, commit it to GitHub, and connect your repo to Azure DevOps.
@@ -21,16 +27,23 @@ Objective: Understand basic CI/CD, set up your environment, and get Azure DevOps
 Objective: Create a build pipeline that runs tests automatically on push.
 
  1- Write unit tests (using pytest for Python or Jest for Node.js)
+ 
  2- Create your first azure-pipelines.yml file
+ 
  3- Set up a build pipeline in Azure Pipelines
+ 
  4- Add tasks for:
+ 
      a- Installing dependencies
+     
      b- Running tests
+     
      c- Checking code quality (e.g. with flake8 or eslint)
 
 - Deliverable: Every push triggers a pipeline that runs tests and code checks.
 
 ✅ Phase 3: Add Code Coverage + Reporting
+
 Objective: Make your pipeline more test-focused and measurable.
 
  Add code coverage tools (coverage.py, nyc, or coverlet)
@@ -42,6 +55,7 @@ Objective: Make your pipeline more test-focused and measurable.
 Deliverable: Pipeline publishes test results and coverage on every commit.
 
 ✅ Phase 4: Continuous Deployment (CD)
+
 Objective: Automatically deploy to Azure Web App after a successful build.
 
  Set up a resource group and Azure App Service
